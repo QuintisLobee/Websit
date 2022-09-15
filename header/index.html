@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Over Mijzelf</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <a href="home.html">Home</a>
+        <a href="contact.html">Contact</a>
+        <a href="muziek.html">Muziek</a>
+      </div>
+      
+      <div id="main">
+        <button class="openbtn" onclick="openNav()">☰</button>
+      </div>
+      
+      <script>
+      function openNav() {
+        document.getElementById("mySidebar").style.width = "250px";
+        document.getElementById("main").style.marginLeft = "250px";
+      }
+      
+      function closeNav() {
+        document.getElementById("mySidebar").style.width = "0";
+        document.getElementById("main").style.marginLeft= "0";
+      }
+      </script>
+
+    <div class="mm">
+        <nav>
+            <img src="">
+            <Ul>
+                <li><a href="home.html">home</a></li>
+            </Ul>
+        </nav>
+    </div>
+
+    <div class="dit">
+        <header>Hoi, Ik ben Quintis<br>Dit is mijn eerste website</header>
+    </div>
+   
+    <p>
+        <script type="module" src=https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js></script>
+        <script nomodule src=https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js></script>
+        <ul>    
+            <a href="http://instagram.com/quintu.373" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+            <a href="http://facebook.com/QuintisLobee"target="_blank"><ion-icon name="logo-facebook"></ion-icon></a>
+            <a href="http://twitter.com/quintinodebeast"target="_blank"><ion-icon name="logo-twitter"></ion-icon></a>
+        </ul>
+    </p>
+
+</body>
+</html>
