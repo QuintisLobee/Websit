@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(0, 143, 143);
+    background-color: rgba(0, 143, 81, 0.811);
 }
 .sidebar {
     height: 100%;
@@ -58,3 +58,11 @@ body{
     .sidebar {padding-top: 15px;}
     .sidebar a {font-size: 18px;}
   }
+
+body{
+
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+
